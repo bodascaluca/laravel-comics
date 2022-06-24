@@ -1,0 +1,22 @@
+main{
+
+    .section-bg{
+        background-color: black;
+    }
+
+    .container_uno{
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid red;
+        height: 50px;
+
+        .card{
+            h2{
+                margin: 1rem;
+                color: $secondary-color;
+            }
+        }
+    }
+
+   
+}

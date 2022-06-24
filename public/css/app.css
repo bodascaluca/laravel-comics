@@ -42,10 +42,30 @@ header .menu li a {
   color: inherit;
 }
 
+header .menu li.active {
+  color: #2582f9;
+}
+
 jumbotron {
   background-image: url("/images/jumbotron.jpg");
   height: 300px;
   display: block;
   background-size: cover;
+}
+
+main .section-bg {
+  background-color: black;
+}
+
+main .container_uno {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid red;
+  height: 50px;
+}
+
+main .container_uno .card h2 {
+  margin: 1rem;
+  color: #ffffff;
 }
 

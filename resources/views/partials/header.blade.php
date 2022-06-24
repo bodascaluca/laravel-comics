@@ -4,7 +4,7 @@
             <li>
                 <img class="logo" src="{{ asset('images/dc-logo.png') }}" alt="">
             </li>
-            <li>
+            <li class="active">
                 <a href="">characters</a>
             </li>
             <li>
