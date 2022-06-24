@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: orange;
+}
+
+header .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header .logo {
+  width: 60px;
+}
+
+header .hr-tx {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+header .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .menu li {
+  margin: 0 1rem;
+  padding: 0.5rem;
+}
+
+header .menu li a {
+  text-decoration: none;
+  color: inherit;
+}
+
