@@ -42,3 +42,10 @@ header .menu li a {
   color: inherit;
 }
 
+jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  height: 300px;
+  display: block;
+  background-size: cover;
+}
+
