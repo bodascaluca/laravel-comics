@@ -1,20 +1,32 @@
 main{
 
-    .section-bg{
-        background-color: black;
-    }
+    // .section-bg{
+    //     background-color: black;
+    // }
 
     .container_uno{
         width: 80%;
         margin: 0 auto;
         border: 1px solid red;
         height: 50px;
+        display: flex; 
 
-        .card{
-            h2{
-                margin: 1rem;
-                color: $secondary-color;
-            }
+        .comics-card{
+            display: flex; 
+            width: calc(100% / 6 - 1rem);
+
+            .card{
+                h2{
+                    margin: 1rem;
+                    color: $secondary-color;
+                
+                    h4{
+                        color: white;
+                    }
+                }
+        }
+
+       
         }
     }
 
