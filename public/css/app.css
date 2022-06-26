@@ -8,10 +8,6 @@ ul {
   list-style: none;
 }
 
-header {
-  background-color: orange;
-}
-
 header .container {
   width: 80%;
   margin: 0 auto;
@@ -47,21 +43,29 @@ jumbotron {
   background-size: cover;
 }
 
-main .container_uno {
+main .section-bg {
+  background-color: black;
+  color: white;
+  padding-top: 3rem;
+  position: relative;
+}
+main .section-bg .container {
   width: 80%;
   margin: 0 auto;
   border: 1px solid red;
-  height: 50px;
+  height: 720px;
+}
+main .section-bg .container .comics-list .comics-card {
   display: flex;
+  flex-wrap: wrap;
 }
-main .container_uno .comics-card {
-  display: flex;
-  width: calc(16.6666666667% - 1rem);
+main .section-bg .container .comics-list .comics-card .card {
+  width: 16.6666666667%;
+  margin: 1rem 0;
 }
-main .container_uno .comics-card .card h2 {
-  margin: 1rem;
-  color: #ffffff;
-}
-main .container_uno .comics-card .card h2 h4 {
-  color: white;
+main .section-bg .targhetta {
+  background-color: #2582f9;
+  padding: 0.7rem 1.2rem;
+  position: absolute;
+  top: -20px;
 }

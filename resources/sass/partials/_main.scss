@@ -1,34 +1,40 @@
 main{
 
-    // .section-bg{
-    //     background-color: black;
-    // }
+    .section-bg{
+        background-color: black;
+        color: white;
+        padding-top:3rem;
+        position: relative;
 
-    .container_uno{
+
+    .container{
         width: 80%;
         margin: 0 auto;
         border: 1px solid red;
-        height: 50px;
-        display: flex; 
+        height: 720px;
 
-        .comics-card{
-            display: flex; 
-            width: calc(100% / 6 - 1rem);
+        .comics-list{
+           
 
-            .card{
-                h2{
-                    margin: 1rem;
-                    color: $secondary-color;
-                
-                    h4{
-                        color: white;
-                    }
+            .comics-card{
+                display: flex;
+                flex-wrap: wrap;
+
+                .card{
+                    width: calc(100% / 6 );
+                    margin: 1rem 0;
                 }
+            }
         }
-
        
+      
+        }
+        .targhetta{
+            background-color: $primary_color;
+            padding: .7rem 1.2rem;
+            position: absolute;
+            top: -20px;
+
         }
     }
-
-   
 }
