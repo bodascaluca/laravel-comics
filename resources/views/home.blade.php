@@ -14,7 +14,9 @@
                  @foreach ($comics_array as $comics)
                  <li class="card">
                     <img src="{{ $comics['thumb'] }}" alt="">
-                    <h4> {{  $comics['title'] }} </h4>
+                    <a href="{{ route('single-comic', ['id' => $id])}}">
+                        <h4> {{  $comics['title'] }} </h4>
+                    </a>
                  </li>
                  @endforeach
                 </ul>

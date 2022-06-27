@@ -69,7 +69,6 @@ main .section-bg {
 main .section-bg .container {
   width: 80%;
   margin: 0 auto;
-  border: 1px solid red;
   height: 800px;
 }
 main .section-bg .container .comics-list .comics-card {
@@ -101,6 +100,63 @@ main .section-bg .section-button .button-a {
   text-decoration: none;
   padding: 0.4rem 0.8rem;
   color: inherit;
+}
+main .back {
+  background-color: #2582f9;
+}
+main .margin {
+  width: 60%;
+  margin: 0 auto;
+}
+main .image-title {
+  height: 60px;
+  position: relative;
+}
+main .image-title .image {
+  width: 150px;
+  border: 2px solid white;
+  position: absolute;
+  top: -180px;
+}
+main .conetenuto {
+  border: 1px solid #2582f9;
+  margin-top: 2rem;
+  display: flex;
+}
+main .con-1 {
+  width: 70%;
+  border: 1px solid red;
+}
+main .con-1 h3 {
+  padding: 1rem 0;
+}
+main .con-1 .flex {
+  display: flex;
+}
+main .con-1 .price {
+  background-color: #55ba59;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 70%;
+}
+main .con-1 .check {
+  -moz-column-rule: white;
+       column-rule: white;
+  background-color: #55ba59;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .con-2 {
+  width: 30%;
+  border: 1px solid green;
+}
+main .titolo {
+  text-transform: uppercase;
 }
 
 /*!

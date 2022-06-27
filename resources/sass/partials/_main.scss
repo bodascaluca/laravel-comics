@@ -10,7 +10,6 @@ main{
     .container{
         width: 80%;
         margin: 0 auto;
-        border: 1px solid red;
         height: 800px;
 
         .comics-list{
@@ -55,4 +54,75 @@ main{
             }
         }
     }
+
+    .back{
+        background-color:$primary_color;
+    }
+
+    .margin{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .image-title{
+        height: 60px;
+        position: relative;
+   
+        .image{
+            width: 150px;
+            border: 2px solid white;
+            position: absolute;
+            top: -180px;
+        }
+       }
+
+       .conetenuto{
+        border: 1px solid $primary_color;
+        margin-top: 2rem;
+        display: flex;
+       }
+
+       .con-1{
+        width: 70%;
+        border: 1px solid red;
+
+        h3{
+            padding: 1rem 0;
+        }
+
+        .flex{
+            display: flex;
+        }
+
+        .price{
+            background-color: #55ba59;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem;
+            width: 70%;
+           }
+
+           .check{
+            column-rule: white;
+            background-color: #55ba59;
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           }
+       }
+
+       .con-2{
+        width: 30%;
+        border: 1px solid green;
+       }
+
+       .titolo{
+        text-transform: uppercase;
+       }
+
+       
+   
 }

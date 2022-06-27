@@ -23,6 +23,18 @@ Route::get('/news', function () {
     return view('news'); 
 });
 
+Route::get('/homepage/{id}', function($id){
+    // dd($id);
+    $comics_array = collect(config('comics'));
+    $current_comic = $comics_array->where('id', $id)->first();
+    $data = [
+        'currenrt-comic'=> $current_comic,
+        'id'=> $id,
+    ];
+    // dd($current_comic);
+    return view('single-comic', compact('data'));
+})->name('single-comic');
+
 
 
 // knjonojnonononn
