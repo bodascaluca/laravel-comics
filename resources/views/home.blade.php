@@ -23,6 +23,12 @@
 
             <div class="targhetta">
                 <h3>CURRENT SERIES</h3>
+            </div>  
+
+            <div class="section-button">
+                <div class="button">
+                    <a class="button-a" href="#">LOAD MORE</a>
+                </div>
             </div>
 
         </div>

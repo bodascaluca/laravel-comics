@@ -1,4 +1,25 @@
 header{
+// @import "node_modules/font-awesome/scss/font-awesome.scss";
+
+    .header-top{
+        color: white;
+        background-color: $primary_color;
+        height: 20px;
+        text-transform: uppercase;
+       display: flex;
+       align-items: center;
+    }
+
+    .header-container{
+        display: flex;
+        justify-content: end;
+        width: 80%;
+        margin: 0  auto;
+    }
+
+    .header-container h6{
+        margin: 0 1rem;
+        }
 
     .container{
         width: 80%;
@@ -22,6 +43,7 @@ header{
         li{
             margin: 0 1rem;
             padding: .5rem;
+            
             a{
                 text-decoration: none;
                 color: inherit;

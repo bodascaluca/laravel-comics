@@ -1,4 +1,14 @@
 <header class="header">
+    <div class="header-top ">
+        <div class="header-container">
+            <h6>dc power 
+                <span>
+                    <i class="far fa-trademark"></i>
+                </span>
+                 visa </h6>
+            <h6>additional dc sites <i class="fas fa-caret-down"></i></h6>
+        </div>
+    </div>
     <nav class="container">
         <ul class="menu hr-tx">
             <li>
