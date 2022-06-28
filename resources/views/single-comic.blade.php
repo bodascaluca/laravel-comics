@@ -10,7 +10,7 @@
             {{-- @foreach($comics_array as $comics) --}}
                 <div class="margin">
                     <div class=" image-title">
-                         <img class="image" src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="">
+                         <img class="image" src="{{ $current_comic['thumb'] }}" alt="">
                     </div>
                 </div>
             {{-- @endforeach --}}
